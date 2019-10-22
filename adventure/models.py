@@ -35,7 +35,12 @@ class Room(models.Model):
         return [p.user.username for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
     def playerUUIDs(self, currentPlayerID):
         return [p.uuid for p in Player.objects.filter(currentRoom=self.id) if p.id != int(currentPlayerID)]
-
+    
+    # def get_all_rooms(self):
+    #     queryset = self._class_.objects.all()
+    #     print("qset HERE: ", queryset)
+    #     print('hello, functional!')
+    #     return queryset
 
 class Player(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)

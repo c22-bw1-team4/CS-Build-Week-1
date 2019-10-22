@@ -40,6 +40,8 @@ r_narrow.connectRooms(r_foyer, "w")
 r_narrow.connectRooms(r_treasure, "n")
 r_treasure.connectRooms(r_narrow, "s")
 
+# print(Room.objects.all())
+
 players=Player.objects.all()
 for p in players:
   p.currentRoom=r_outside.id
