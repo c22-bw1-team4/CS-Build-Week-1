@@ -1,4 +1,21 @@
 # CS Build Week 1
+BE
+View all rooms:
+https://bw-django-game.herokuapp.com/api/adv/rooms
+Admin Login:
+https://bw-django-game.herokuapp.com/admin
+User Registration:
+https://bw-django-game.herokuapp.com/api/registration/
+User Login:
+https://bw-django-game.herokuapp.com/api/login/
+Player Initialize:
+https://bw-django-game.herokuapp.com/api/adv/init
+Player Move:
+https://bw-django-game.herokuapp.com/api/adv/move
+
+FE
+https://bw-react.herokuapp.com/
+
 
 For your first CS Build Week, you will be building an interactive ***Multi-User Dungeon (MUD)*** client and server in groups. To succeed with this project, you will be applying knowledge you've learned throughout the first part of CS to this project.
 
