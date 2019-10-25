@@ -1,17 +1,24 @@
 # CS Build Week 1
+
 BE
 View all rooms:
 https://bw-django-game.herokuapp.com/api/adv/rooms
+
 Admin Login:
 https://bw-django-game.herokuapp.com/admin
+
 User Registration:
 https://bw-django-game.herokuapp.com/api/registration/
+
 User Login:
 https://bw-django-game.herokuapp.com/api/login/
+
 Player Initialize:
 https://bw-django-game.herokuapp.com/api/adv/init
+
 Player Move:
 https://bw-django-game.herokuapp.com/api/adv/move
+
 
 FE
 https://bw-react.herokuapp.com/
