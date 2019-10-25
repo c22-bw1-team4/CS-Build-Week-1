@@ -1,6 +1,7 @@
 # CS Build Week 1
 
 BE
+
 View all rooms:
 https://bw-django-game.herokuapp.com/api/adv/rooms
 
@@ -20,7 +21,9 @@ Player Move:
 https://bw-django-game.herokuapp.com/api/adv/move
 
 
+
 FE
+
 https://bw-react.herokuapp.com/
 
 
